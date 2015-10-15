@@ -1,0 +1,50 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sg_bg_repeat"
+    tools:context="com.zoltarianie.bazgroszytpainting.ChooseCategory">
+
+    <com.zoltarianie.bazgroszytpainting.elems.ViewPagerParallax
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/sg_logo" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="60"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+
+    <ImageView
+        android:paddingLeft="10dp"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_strzalka_l" />
+
+    <ImageView
+        android:paddingRight="10dp"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_strzalka_r" />
+
+</RelativeLayout>

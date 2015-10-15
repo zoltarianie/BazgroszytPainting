@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="40dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginRight="100dp"
+    android:layout_marginLeft="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/frame_0_1"/>
+
+            <ImageView
+                android:layout_weight="100"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/frame_0_2"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/frame_0_3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="100"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/frame_0_4"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:background="#a2daf3"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="50"
+                    android:layout_height="0dp"
+                    android:weightSum="100"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:onClick="efClickColoringBookTile"
+                        android:id="@+id/ing_coloring_book_1"
+                        android:padding="5dp"
+                        android:layout_weight="50"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/okladka_00" />
+
+                    <ImageView
+                        android:onClick="efClickColoringBookTile"
+                        android:id="@+id/ing_coloring_book_2"
+                        android:padding="5dp"
+                        android:layout_weight="50"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/okladka_00" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="50"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:onClick="efClickColoringBookTile"
+                        android:id="@+id/ing_coloring_book_3"
+                        android:padding="5dp"
+                        android:layout_weight="50"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/okladka_00" />
+
+                    <ImageView
+                        android:onClick="efClickColoringBookTile"
+                        android:id="@+id/ing_coloring_book_4"
+                        android:padding="5dp"
+                        android:layout_weight="50"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/okladka_00" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/frame_0_5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/frame_0_6"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="100"
+                android:layout_height="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/frame_0_7"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/frame_0_8"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
